@@ -6,9 +6,7 @@
 	} = $props();
 
 	export const execute = () => {
-		console.log({ count });
 		count += 1;
-		console.log({ count });
 	};
 </script>
 
