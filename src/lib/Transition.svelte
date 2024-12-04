@@ -13,16 +13,7 @@
 	} = $props();
 </script>
 
-<h1>transitionの例</h1>
-<section>
-	<h2>transition:flyにundefinedが渡る例</h2>
-	<div transition:fly={transition?.fly}>
-		<p>{@render children()}</p>
-	</div>
-</section>
-<section>
-	<h2>transition:flyを出し分ける例</h2>
-	<div transition:fly={transition?.fly}>
-		<p>{@render children()}</p>
-	</div>
-</section>
+<h1>transition:flyにundefinedが渡る例</h1>
+<div transition:fly={transition?.fly}>
+	{@render children()}
+</div>
